@@ -1,8 +1,6 @@
-let location1 = Math.floor(Math.random() * 5); // added automatic ship location
+let location1 = Math.floor(Math.random() * 6); // added automatic ship location
 let location2 = location1 + 1;
 let location3 = location2 + 1;
-
-alert(location1);
 
 let shot;
 let hits = 0;
